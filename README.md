@@ -1,6 +1,7 @@
-##Otsikko
+# Ohjelmistotekniikka, harjoitustyö
+## Tehtävät
 
-Tekstiä.
-_Kursivoitua tekstiä_
-**Lihavoitua tekstiä**
+## Viikko 1
+[gitlog.txt](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)  
+[komentorivi.txt](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
