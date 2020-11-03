@@ -1,0 +1,124 @@
+commit 8798ef9771ca97605dc464a325c415b930ad48a3
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Tue Nov 3 21:20:32 2020 +0200
+
+    Muutoksia
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 1a95753307b92d49cba6ff56f07d83d6179b7abd
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Tue Nov 3 21:12:27 2020 +0200
+
+    Hakemisto tiedostoja luotu
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 60375c39c30cdb48bab24d0ffb6d22eb4b081e8c
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Tue Nov 3 21:02:04 2020 +0200
+
+    Muutoksia
+
+ eka.txt    | 4 +---
+ kolmas.txt | 4 ++--
+ 2 files changed, 3 insertions(+), 5 deletions(-)
+
+commit 1d3749969530d955de77737213d36177f75d248c
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 12:08:18 2020 +0200
+
+    Muutoksia
+
+ eka.txt    | 3 ++-
+ kolmas.txt | 6 ++++++
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+commit 01754e2249065f516ec8fe6f69eb06ffb4d5f8e1
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:59:23 2020 +0200
+
+    tiedosto.txt nimi muutettu eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit b0e087dba04ac5590040c79a47e1379eb90c5db0
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:54:38 2020 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 6ad4e8efb4132e5bbc787a42a9f29f1355350572
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:46:53 2020 +0200
+
+    tiedosto.txt muokattu
+
+ tiedosto.txt | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 4d9e114d1344ad7311b91af97f9768b93faf776c
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:44:09 2020 +0200
+
+    Muutoksia tiedosto.txt
+
+ tiedosto.txt | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit e4c517da1dc63ac6f5bda85f79d9e612aa8374ec
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:28:10 2020 +0200
+
+    Hakemisto stuff luotu
+
+ stuff/esimerkki.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 18beac1bb9aec6162b13f8118dd8f53c088cb350
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:25:52 2020 +0200
+
+    Muutoksia
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 74725dc622103490cab470f70a5bda75dee6a87a
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:23:18 2020 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f6d716c2017422ced63a1ab12750dee8d9d88c2b
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:18:33 2020 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit f545f41bd8bdeb77c8bafe673609bfd25c5efadc
+Author: Marika Sirkka <marika.sirkka@helsinki.fi>
+Date:   Mon Oct 26 11:12:34 2020 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
