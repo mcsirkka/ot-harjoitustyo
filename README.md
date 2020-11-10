@@ -2,7 +2,7 @@
 
 ## Dokumentaatio
 
-[Työaikakijanpito](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)  
+[Työaikakirjanpito](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)  
 [Vaatimusmäärittely](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 ## Tehtävät
