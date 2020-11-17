@@ -70,4 +70,8 @@ public class MastermindGame {
     public ArrayList<Integer> gerSecretCode() {
         return this.secretCode;
     }
+    
+    public int getNumberOfGuesses() {
+        return this.numberOfGuesses;
+    }
 }
