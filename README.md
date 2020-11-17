@@ -1,4 +1,6 @@
-# Ohjelmistotekniikka, harjoitustyö
+# Mastermind -peli
+
+Mastermind-nimisessä klassikopelissä pelaaja pyrkii ratkaisemaan väreistä (tai numeroista) koostuvan koodin mahdollisimman pienellä arvausmäärällä. Jokaisen arvauksen jälkeen peli antaa 'vihjeen' siitä, kuinka lähellä oikeaa ratkaisua arvaus oli.
 
 ## Dokumentaatio
 
