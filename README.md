@@ -6,4 +6,5 @@ Mastermind-nimisessä klassikopelissä pelaaja pyrkii ratkaisemaan väreistä (t
 
 [Työaikakirjanpito](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)  
 [Vaatimusmäärittely](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[Arkkitehtuurikuvaus](https://github.com/mcsirkka/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
