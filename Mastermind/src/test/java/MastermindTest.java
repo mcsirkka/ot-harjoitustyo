@@ -27,12 +27,18 @@ public class MastermindTest {
     
     @Test
     public void constructorSetsGameOverAsFalse() {
-        assertEquals(false, game.gameIsOver());
+        assertEquals(false, game.codeIsSolved());
     }
     
     @Test
     public void constructorSetsNumberOfGuessesAsZero() {
         assertEquals(0, game.getNumberOfGuesses());
     }
-    
+       
+    @Test
+    public void restartSetsNumberOfGuessesAsZero() {
+        this.game.setNumberOfGuesses(5);
+        this.game.restart();
+        assertEquals(0, game.getNumberOfGuesses());
+    }   
 }

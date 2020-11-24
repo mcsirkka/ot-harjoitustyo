@@ -68,6 +68,10 @@ public class MastermindGame {
         return this.numberOfGuesses;
     }
 
+    public void setNumberOfGuesses(int numberOfGuesses) {
+        this.numberOfGuesses = numberOfGuesses;
+    }
+
     public void generateSecretCode() {
         this.secretCode.clear();
         Random r = new Random();
