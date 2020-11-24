@@ -8,7 +8,7 @@ Sovelluksella on vain yhdenlaisia käyttäjiä.
 ## Perusversion toiminnallisuus  
 - Ennen pelin alkua pelaaja voi valita haluamansa vaikeustason (esim. easy/medium/difficult)
 - Peli varoittaa, jos pelaaja yrittää arvata jo kertaalleen arvaamansa yhdistelmän uudelleen
-- Peli loppuu, kun pelaaja arvaa oikean koodin tai kun arvausten määrä ylittää tietyn lukeman (esim. 12)
+- Peli loppuu, kun pelaaja arvaa oikean koodin tai kun arvausten määrä ylittää tietyn lukeman (esim. 12) (Tehty)
 - Peli pitää kirjaa highscoreista
 
 ## Jatkokehitysideat
