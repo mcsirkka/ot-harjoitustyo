@@ -5,31 +5,31 @@ import java.util.Random;
 
 public class MastermindGame {
     ArrayList<Integer> secretCode;
-    boolean gameOver;
+    boolean codeIsSolved;
     int numberOfGuesses;
     
     public MastermindGame() {
-        this.gameOver = false;
+        this.codeIsSolved = false;
         this.numberOfGuesses = 0;
         this.secretCode = new ArrayList<>();
-        Random r = new Random();
-        
-        for (int i = 0; i < 4; i++) {
-            this.secretCode.add(r.nextInt(6)); //Assumes game is played with 6 different numbers (colours)
-        }
+
+        this.generateSecretCode();
     }
     
-    public boolean gameIsOver() {
-        return this.gameOver;
+    public boolean codeIsSolved() {
+        return this.codeIsSolved;
     }
     
-    public String compareCodes(String guess) {
+    public ArrayList<Integer> compareCodes(ArrayList<Integer> guessedCode) {
         this.numberOfGuesses++;
-        ArrayList<Integer> guessedCode = this.convertStringToCode(guess);
+        ArrayList<Integer> resultOfComparison = new ArrayList<>();
         
         if (this.secretCode.equals(guessedCode)) {
-            this.gameOver = true;
-            return "Congrats! You have solved the secret code! It took you " + this.numberOfGuesses + " guesses.";
+            this.codeIsSolved = true;
+            for (int i = 1; i < 5; i++) {
+                resultOfComparison.add(2);
+            }
+            return resultOfComparison;
         }  
         
         int correctNumbersAtCorrectIndexes = 0;
@@ -38,6 +38,7 @@ public class MastermindGame {
         for (int i = 0; i < 4; i++) {
             if (this.secretCode.get(i) == guessedCode.get(i)) {
                 correctNumbersAtCorrectIndexes++;
+                resultOfComparison.add(2);
             }
         }
         
@@ -49,29 +50,36 @@ public class MastermindGame {
         }
 
         correctNumbersAtWrongIndexes = correctNumbersAtWrongIndexes - correctNumbersAtCorrectIndexes;
-        return "Your guess contains " + correctNumbersAtCorrectIndexes + " correct numbers at their correct indexes and " + 
-                correctNumbersAtWrongIndexes + " correct numbers at wrong indexes.";
-    }
-    
-    public ArrayList<Integer> convertStringToCode(String guess) {
-        ArrayList<Integer> convertedCode = new ArrayList<>();
-        String[] inputAsStringArray = guess.split(",");
         
-        for (int i = 0; i < inputAsStringArray.length; i++) {
-            convertedCode.add(Integer.valueOf(inputAsStringArray[i]));
+        for (int i = 1; i <= correctNumbersAtWrongIndexes; i++) {
+            resultOfComparison.add(1);
         }
-        return convertedCode;
+        while (resultOfComparison.size() < 4)  {
+            resultOfComparison.add(0);
+        }
+        return resultOfComparison;
     }
     
-    public void quit() {
-        this.gameOver = true;
-    }
-    
-    public ArrayList<Integer> gerSecretCode() {
+    public ArrayList<Integer> getSecretCode() {
         return this.secretCode;
     }
     
     public int getNumberOfGuesses() {
         return this.numberOfGuesses;
+    }
+
+    public void generateSecretCode() {
+        this.secretCode.clear();
+        Random r = new Random();
+        
+        for (int i = 0; i < 4; i++) {
+            this.secretCode.add(r.nextInt(6)); //Assumes game is played with 6 different numbers (colours)
+        }        
+    }
+    
+    public void restart() {
+        this.codeIsSolved = false;
+        this.numberOfGuesses = 0;
+        this.generateSecretCode();        
     }
 }
